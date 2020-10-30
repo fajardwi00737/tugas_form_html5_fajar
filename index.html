@@ -12,21 +12,21 @@
     <div class="row">
         <div class="col-12">
             <div class="card p-3">
-                <div class="card-title"><h1 class="font-weight-bold" style="color: #129987;">Student Registration Form</h1></div>
+                <div class="card-title col-sm-12 my-auto"><h1 class="font-weight-bold" style="color: #129987;">Student Registration Form</h1></div>
                 <div class="card-body">
                     <form action="#" method="post">
                         <div class="form-row justify-content-end">
-                            <label class="mt-1">Date</label>&nbsp;&nbsp;&nbsp;
+                            <label class="mt-1">Tanggal</label>&nbsp;&nbsp;&nbsp;
                             <div class="col-sm-12 col-md-4">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
                             </div>
                         </div>
                         <div class="form-group mt-5 border-bottom border-dark">
-                            <h4 class="font-weight-bold">Personal Information</h4>
+                            <h4 class="font-weight-bold">Data Personal</h4>
                         </div>
                         <div class="form-row">
                             <div class="col-sm-12 col-md-3">
-                                <label>Name </label>
+                                <label>Nama </label>
                             </div>
                             <div class="col-sm-12 col-md-9">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
@@ -34,18 +34,7 @@
                         </div>
                         <div class="form-row mt-2">
                             <div class="col-sm-12 col-md-3">
-                                <label>Date Of Birth</label>
-                            </div>
-                            <div class="col-sm-12 col-md-9">
-                                <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
-                            </div>
-                        </div>
-                        <div class="form-group mt-5 border-bottom border-dark">
-                            <h4 class="font-weight-bold">Contact Information</h4>
-                        </div>
-                        <div class="form-row mt-2">
-                            <div class="col-sm-12 col-md-3">
-                                <label>Address</label>
+                                <label>Tempat, Tanggal Lahir</label>
                             </div>
                             <div class="col-sm-12 col-md-9">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
@@ -53,13 +42,24 @@
                         </div>
                         <div class="form-row mt-2">
                             <div class="col-sm-12 col-md-3">
-                                <label>City</label>
+                                <label>Alamat</label>
+                            </div>
+                            <div class="col-sm-12 col-md-9">
+                                <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3 border-bottom border-dark">
+                            <h4 class="font-weight-bold">Data Kontak</h4>
+                        </div>
+                        <div class="form-row mt-2">
+                            <div class="col-sm-12 col-md-3">
+                                <label>Kota</label>
                             </div>
                             <div class="col-sm-12 col-md-3">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
                             </div>
                             <div class="col-sm-12 col-md-3">
-                                <label>Province/State</label>
+                                <label>Provinsi</label>
                             </div>
                             <div class="col-sm-12 col-md-3">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
@@ -67,13 +67,13 @@
                         </div>
                         <div class="form-row mt-2">
                             <div class="col-sm-12 col-md-3">
-                                <label>Zip Code</label>
+                                <label>Kode Pos</label>
                             </div>
                             <div class="col-sm-12 col-md-3">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
                             </div>
                             <div class="col-sm-12 col-md-3">
-                                <label>Country</label>
+                                <label>Negara</label>
                             </div>
                             <div class="col-sm-12 col-md-3">
                                 <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
@@ -81,7 +81,7 @@
                         </div>
                         <div class="form-row mt-2">
                             <div class="col-sm-12 col-md-3">
-                                <label>Phone</label>
+                                <label>No. Telp</label>
                             </div>
                             <div class="col-sm-12 col-md-3">
                                 <input type="number" class="form-control" required>
@@ -94,75 +94,32 @@
                             </div>
                         </div>
                         <div class="form-row mt-2">
-                            <div class="col">Membership Type</div>
+                            <div class="col">Jenis Kelamin</div>
                             <div class="col ml-2 form-check form-check-inline">
                                 <input type="radio" class="form-check-input" name="membershipType" required>
                                 <label class="form-check-label">
-                                    Regular
+                                    Laki laki
                                 </label>
                             </div>
                             <div class="col form-check form-check-inline">
                                 <input type="radio" class="form-check-input" name="membershipType" required>
                                 <label class="form-check-label">
-                                    Premium
+                                    Perempuan
                                 </label>
                             </div>
                             <div class="col form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="membershipType" required>
-                                <label class="form-check-label">
-                                    VIP
-                                </label>
                             </div>
                         </div>
-                        <div class="form-group mt-5 border-bottom border-dark">
-                            <h4 class="font-weight-bold">Course Information</h4>
-                        </div>
-                        <div class="form-row mt-2">
-                            <div class="col-sm-12 col-md-3">
-                                <label>Course Name</label>
-                            </div>
-                            <div class="col-sm-12 col-md-9">
-                                <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
-                            </div>
-                        </div>
-                        <div class="form-row mt-2">
-                            <div class="col">Payment Details</div>
-                            <div class="ml-2 col form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="paymentType" required>
-                                <label class="form-check-label">
-                                    Cash
-                                </label>
-                            </div>
-                            <div class="col form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="paymentType" required>
-                                <label class="form-check-label">
-                                    Cheque
-                                </label>
-                            </div>
-                            <div class="col form-check form-check-inline">
-                                <input type="radio" class="form-check-input" name="paymentType" required>
-                                <label class="form-check-label">
-                                    Credit Card
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-row mt-3">
-                            <div class="col-sm-12 col-md-3">
-                                <label>Comments</label>
-                            </div>
-                            <div class="col-sm-12 col-md-9">
-                                <input type="text" class="form-control" title="whitespace not allowed" pattern="(.|\s)*\S(.|\s)*" required>
-                            </div>
-                        </div>
+                        
                         <div class="form-row mt-3">
                             <div class="col pt-1 pb-1">
-                                <input type="text" class="form-control mt-1" placeholder="Student's Name" required>
+                                <input type="text" class="form-control mt-1" placeholder="Nama Siswa" required>
                             </div>
                             <div class="col  pt-1 pb-1">
-                                <input type="text" class="form-control mt-1" placeholder="Validated By" required>
+                                <input type="text" class="form-control mt-1" placeholder="Di Tanda Tangani oleh" required>
                             </div>
                         </div>
-                        <div class="form-group mt-5">
+                        <div class="form-group mt-3">
                             <button type="submit" class="btn btn-danger">Submit</button>
                         </div>
                     </form>
